@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+// All official DB test entry points share this lock. Individual concurrency
+// workers intentionally do not acquire it: they belong to the owning suite.
+require dirname(__DIR__).'/vendor/autoload.php';
+try {
+    $testConnection=App\Tests\Support\TestDatabase::connection('owner');
+    if (!$testConnection->fetchOne("SELECT pg_try_advisory_lock(hashtextextended('mikoucto.integration-suite',0))")) {
+        fwrite(STDERR,"Jina DB testovaci sada prave pouziva mikoucto_test. Pockejte na jeji dokonceni a prikaz zopakujte.\n");
+        exit(2);
+    }
+} catch (Throwable $exception) {
+    fwrite(STDERR,"Nelze zamknout testovaci DB. Overte tunel a testovaci role.\n");
+    exit(2);
+}
+register_shutdown_function(static function() use($testConnection): void { $testConnection->close(); });
+// Clear the integration container only after obtaining the suite lock. Unit
+// tests have a separate cache; new routes must reach DB tests without clearing
+// files from beneath another suite's live HTTP workers.
+$console=dirname(__DIR__).'/bin/console';
+$loader='$argv=array_merge([base64_decode($argv[1])],array_slice($argv,2)); $_SERVER["argv"]=$argv; $_SERVER["argc"]=count($argv); $_SERVER["SCRIPT_FILENAME"]=$argv[0]; require $argv[0];';
+$cache=proc_open([PHP_BINARY,'-r',$loader,base64_encode($console),'cache:clear','--env=test','--no-warmup','--no-interaction'],
+    [0=>STDIN,1=>STDOUT,2=>STDERR],$pipes,dirname(PHP_BINARY),null,['bypass_shell'=>true]);
+if (!is_resource($cache) || proc_close($cache)!==0) { fwrite(STDERR,"Obnova cache integracnich testu selhala.\n"); exit(1); }
+require dirname(__DIR__).'/vendor/phpunit/phpunit/phpunit';

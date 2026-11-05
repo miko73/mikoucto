@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+use App\Modules\Core\Infrastructure\Backup\BackupGuard;
+use App\Modules\Core\Infrastructure\Backup\DevelopmentDeployment;
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+require dirname(__DIR__).'/vendor/autoload.php';
+$connection=null;
+try {
+    $directory=BackupGuard::directory(getenv('MIKOUCTO_BACKUP_DIR')?:'');
+    $source=json_decode(file_get_contents($directory.'/source.json'),true,512,JSON_THROW_ON_ERROR);
+    $archive=json_decode(file_get_contents($directory.'/archive.json'),true,512,JSON_THROW_ON_ERROR);
+    $report=json_decode(file_get_contents($directory.'/restore-report.json'),true,512,JSON_THROW_ON_ERROR);
+    if (!hash_equals($archive['sha256'],hash_file('sha256',$directory.'/database.dump'))||!hash_equals($archive['sourceManifestSha256'],hash_file('sha256',$directory.'/source.json'))) { throw new RuntimeException('Backup integrity mismatch.'); }
+    BackupGuard::verified($source,$archive,$report,basename($directory));
+    $connection=ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL')?:'');
+    $apply=getenv('MIKOUCTO_DEVELOPMENT_APPLY')==='yes';$result=DevelopmentDeployment::run($connection,$source,$apply);$connection->close();
+    BackupGuard::write($directory.($apply?'/deployment-report.json':'/deployment-preflight.json'),$result);
+    echo $apply?'Development migration committed.':'Development preflight passed; no migration applied.',PHP_EOL;
+} catch(Throwable $error) {
+    if ($connection) { $connection->close(); }
+    if (isset($directory)) { BackupGuard::write($directory.'/deployment-error.json',['class'=>get_class($error),'message'=>preg_replace('~postgres(?:ql)?://[^\s]+~','[redacted]',$error->getMessage())]); }
+    fwrite(STDERR,'Development deployment failed ('.get_class($error).'). Check source status and deployment-error.json before retrying.'.PHP_EOL);exit(1);
+}

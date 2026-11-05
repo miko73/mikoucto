@@ -1,0 +1,8 @@
+{
+  "name": "mikoucto-entra-check",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node diagnostics.test.mjs" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "@azure/msal-node": "7.1.2" }
+}

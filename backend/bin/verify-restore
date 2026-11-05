@@ -1,0 +1,49 @@
+#!/usr/bin/env php
+<?php
+use App\Modules\Core\Infrastructure\Backup\BackupGuard;
+use App\Modules\Core\Infrastructure\Backup\BackupManifest;
+use App\Modules\Core\Infrastructure\Backup\RestoreRehearsal;
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+use Doctrine\DBAL\DriverManager;
+use Doctrine\DBAL\Tools\DsnParser;
+require dirname(__DIR__).'/vendor/autoload.php';
+$connections=[];
+try {
+    $directory=BackupGuard::directory(getenv('MIKOUCTO_BACKUP_DIR')?:'');$id=basename($directory);$name=getenv('MIKOUCTO_RESTORE_DATABASE')?:'';
+    BackupGuard::cloneName($name,$id);
+    $source=json_decode(file_get_contents($directory.'/source.json'),true,512,JSON_THROW_ON_ERROR);
+    $archive=json_decode(file_get_contents($directory.'/archive.json'),true,512,JSON_THROW_ON_ERROR);
+    if ($source['backupId']!==$id||!hash_equals($archive['sha256'],hash_file('sha256',$directory.'/database.dump'))||!hash_equals($archive['sourceManifestSha256'],hash_file('sha256',$directory.'/source.json'))) { throw new RuntimeException('Backup integrity check failed.'); }
+    if ($source['migrationFiles']!==BackupGuard::migrationFiles()) { throw new RuntimeException('Migration files changed after the backup. Create a new backup.'); }
+    $parser=new DsnParser(['postgresql'=>'pdo_pgsql']);
+    $ownerParams=$parser->parse(getenv('DATABASE_MIGRATIONS_URL')?:'');$ownerParams['dbname']=$name;
+    $owner=$connections[]=DriverManager::getConnection($ownerParams);BackupGuard::clone($owner,$name,$id);
+    $owner->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');
+    $actual=BackupManifest::capture($owner);$owner->executeStatement('ROLLBACK');
+    BackupGuard::write($directory.'/restored-manifest.json',$actual);
+    BackupManifest::verify($source['manifest'],$actual);
+    $migration=RestoreRehearsal::migrate($owner,$name,$id,$source);
+    $appParams=$parser->parse(getenv('MIKOUCTO_BACKUP_APP_URL')?:'');$appParams['dbname']=$name;
+    $app=$connections[]=DriverManager::getConnection($appParams);
+    $smoke=RestoreRehearsal::smoke($owner,$app,$name,$id);
+    $owner->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');$after=BackupManifest::capture($owner);$owner->executeStatement('ROLLBACK');
+    BackupManifest::preserved($source['manifest'],$after);
+    $original=$connections[]=ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL')?:'');
+    $original->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');
+    if ($original->fetchOne('SELECT current_database()')!=='playground') { throw new RuntimeException('Final source identity mismatch.'); }
+    $sourceNow=BackupManifest::capture($original);$original->executeStatement('ROLLBACK');
+    if ($sourceNow['fingerprint']!==$source['manifest']['fingerprint']) { throw new RuntimeException('Source changed since backup. Refresh backup before development deployment.'); }
+    if ($source['migrationFiles']!==BackupGuard::migrationFiles()) { throw new RuntimeException('Migration files changed during rehearsal.'); }
+    $report=['backupId'=>$id,'verifiedAt'=>gmdate('c'),'archiveSha256'=>$archive['sha256'],'sourceFingerprint'=>$sourceNow['fingerprint'],
+        'sourceUnchanged'=>true,'restoreDatabase'=>$name,'restoredDatabaseVerified'=>true,'tablesVerified'=>count($actual['tables']),
+        'rowChecksIncludingPartitionParents'=>array_sum(array_column($actual['tables'],'count')),'auditValid'=>true,'migrationRehearsal'=>$migration,'smoke'=>$smoke,
+        'originalRowsPreservedAfterMigrations'=>true,'migrationFiles'=>$source['migrationFiles'],'restoreDatabaseRemoved'=>false,'developmentMigrationApplied'=>false];
+    BackupGuard::write($directory.'/restore-report.json',$report);
+    foreach ($connections as $connection) { $connection->close(); }
+    BackupGuard::write($directory.'/verification-ready.json',['verified'=>true]);
+    echo 'Restore, migration rehearsal and accounting smoke passed.',PHP_EOL;
+} catch(Throwable $error) {
+    foreach ($connections as $connection) { $connection->close(); }
+    if (isset($directory)) { BackupGuard::write($directory.'/restore-error.json',['class'=>get_class($error),'message'=>preg_replace('~postgres(?:ql)?://[^\s]+~','[redacted]',$error->getMessage())]); }
+    fwrite(STDERR,'Restore verification failed ('.get_class($error).'). See restore-error.json.'.PHP_EOL);exit(1);
+}

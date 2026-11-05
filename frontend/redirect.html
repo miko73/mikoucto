@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="UTF-8"><title>Přihlášení · mikoucto</title></head><body><p id="message">Dokončuji přihlášení…</p><script type="module">
+import { broadcastResponseToMainFrame } from '@azure/msal-browser/redirect-bridge';
+broadcastResponseToMainFrame().catch(() => { document.getElementById('message').textContent = 'Přihlášení se nepodařilo dokončit. Zavřete okno a zkuste to znovu.'; });
+</script></body></html>

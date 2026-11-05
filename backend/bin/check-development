@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+use App\Modules\Core\Infrastructure\Backup\BackupGuard;
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+use App\Modules\Core\Infrastructure\Identity\ApplicationRoleGuard;
+use App\Modules\Core\Infrastructure\Migrations\MigrationFactory;
+use App\Modules\Accounting\Infrastructure\DocumentRepository;
+require dirname(__DIR__).'/vendor/autoload.php';
+$owner=null;$app=null;
+try {
+    $directory=BackupGuard::directory(getenv('MIKOUCTO_BACKUP_DIR')?:'');
+    $deployment=json_decode(file_get_contents($directory.'/deployment-report.json'),true,512,JSON_THROW_ON_ERROR);
+    if (($deployment['applied']??false)!==true||$deployment['database']!=='playground') { throw new RuntimeException('No committed development deployment report.'); }
+    $owner=ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL')?:'');MigrationFactory::assertTarget($owner,'playground');
+    $owner->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');
+    $versions=$owner->fetchFirstColumn('SELECT version FROM migration.versions ORDER BY version');
+    if ($versions!==$deployment['migration']['after']||!$owner->fetchOne('SELECT ok FROM core.audit_verify()')) { throw new RuntimeException('Development version or audit mismatch.'); }
+    $owner->executeStatement('ROLLBACK');$owner->close();
+    $unit=$deployment['testUnit'];if (!$unit['ready']) { throw new RuntimeException('Assign the intended existing identity to UCTO_DEV before checking access.'); }
+    $app=ConnectionFactory::create(getenv('MIKOUCTO_BACKUP_APP_URL')?:'');
+    if ($app->fetchOne('SELECT current_database()')!=='playground') { throw new RuntimeException('Application target mismatch.'); }
+    (new ApplicationRoleGuard($app))->check();
+    $app->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');
+    $app->fetchOne('SELECT core.set_context(?::uuid,?,?)',[$unit['userId'],'development-readiness','setup']);
+    $app->fetchOne("SELECT set_config('app.accounting_unit_id',?,true)",[$unit['id']]);
+    $found=$app->fetchOne('SELECT code FROM core.accounting_units WHERE id=?',[$unit['id']]);
+    if ($found!=='UCTO_DEV') { throw new RuntimeException('Test unit is not available to the intended user.'); }
+    $permissions=[];
+    foreach (['accounts.read','accounts.write','accounts.history','periods.read','periods.write','periods.close','documents.read','documents.write','documents.post','documents.history'] as $permission) {
+        if (!$app->fetchOne('SELECT core.has_permission(?::uuid,?)',[$unit['id'],'core.ucto.'.$permission])) { throw new RuntimeException('Missing test unit permission: '.$permission); }$permissions[]=$permission;
+    }
+    $counts=[];foreach (['accounts','periods','documents'] as $table) { $counts[$table]=(int)$app->fetchOne("SELECT count(*) FROM ucto.$table WHERE accounting_unit_id=?",[$unit['id']]); }
+    [, $counts['journalRows']]=(new DocumentRepository($app))->journal($unit['id'],[1,20,'',null,null,null,null]);
+    $app->executeStatement('ROLLBACK');$app->close();
+    BackupGuard::write($directory.'/readiness-report.json',['checkedAt'=>gmdate('c'),'database'=>'playground','applicationRole'=>'mikoucto_app','versions'=>$versions,'auditValid'=>true,
+        'testUnit'=>'UCTO_DEV','permissions'=>$permissions,'counts'=>$counts,'realEntraBrowserFlowConfirmed'=>false]);
+    echo 'Development DB and application-role access to UCTO_DEV passed.',PHP_EOL;
+} catch(Throwable $error) {
+    if ($owner) { $owner->close(); }if ($app) { $app->close(); }
+    if (isset($directory)) { BackupGuard::write($directory.'/readiness-error.json',['class'=>get_class($error),'message'=>preg_replace('~postgres(?:ql)?://[^\s]+~','[redacted]',$error->getMessage())]); }
+    fwrite(STDERR,'Development readiness failed. See readiness-error.json.',PHP_EOL);exit(1);
+}

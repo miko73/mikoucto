@@ -1,0 +1,38 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: ../src/
+        exclude:
+            - ../src/Kernel.php
+            - ../src/Modules/Core/Application/Identity/ApplicationUser.php
+            - ../src/Modules/Core/Application/Identity/EntraIdentity.php
+            - ../src/Modules/Core/Application/InputValidationException.php
+            - ../src/Modules/Partners/ApiResource/
+            - ../src/Modules/Partners/Domain/
+            - ../src/Modules/Accounting/ApiResource/
+
+    Doctrine\DBAL\Connection:
+        factory: ['App\Modules\Core\Infrastructure\ConnectionFactory', 'create']
+        arguments: ['%env(DATABASE_URL)%']
+        public: true
+
+    App\Modules\Core\Infrastructure\Identity\EntraSettings:
+        arguments:
+            $tenantId: '%env(ENTRA_TENANT_ID)%'
+            $apiClientId: '%env(ENTRA_API_CLIENT_ID)%'
+            $allowedClientIds: '%env(ENTRA_ALLOWED_CLIENT_IDS)%'
+            $requiredScope: '%env(ENTRA_REQUIRED_SCOPE)%'
+
+    App\Modules\Core\Application\Identity\AccessTokenValidator:
+        alias: App\Modules\Core\Infrastructure\Identity\EntraAccessTokenValidator
+        public: true
+
+    App\Modules\Core\Application\Identity\UserDirectory:
+        alias: App\Modules\Core\Infrastructure\Identity\DatabaseUserDirectory
+        public: true
+
+    App\Modules\Core\Infrastructure\Identity\SigningKeys:
+        alias: App\Modules\Core\Infrastructure\Identity\EntraSigningKeys

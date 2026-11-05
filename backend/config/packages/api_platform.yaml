@@ -1,0 +1,19 @@
+api_platform:
+    title: mikoucto API
+    version: 1.0.0
+    mapping:
+        paths: ['%kernel.project_dir%/src/Modules/Partners/ApiResource', '%kernel.project_dir%/src/Modules/Accounting/ApiResource']
+    formats:
+        json: ['application/json']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    docs_formats:
+        jsonopenapi: ['application/vnd.openapi+json']
+    error_formats:
+        jsonproblem: ['application/problem+json']
+    enable_swagger_ui: false
+    enable_re_doc: false
+    defaults:
+        stateless: true
+        extra_properties:
+            rfc_7807_compliant_errors: true

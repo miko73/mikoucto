@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true" cacheDirectory=".phpunit.cache/integration" failOnWarning="true">
+    <php>
+        <env name="APP_ENV" value="test" force="true"/>
+        <env name="APP_DEBUG" value="0" force="true"/>
+        <env name="APP_SECRET" value="integration-test-only" force="true"/>
+        <env name="KERNEL_CLASS" value="App\Kernel"/>
+    </php>
+    <testsuites><testsuite name="database-integration"><directory>tests/Integration</directory></testsuite></testsuites>
+</phpunit>

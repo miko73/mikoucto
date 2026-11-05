@@ -1,0 +1,3064 @@
+2026-06-27 John Ralls 
+
+	* Release GnuCash 5.16 (HEAD -> stable, tag: 5.16)
+
+2026-06-27 John Ralls 
+
+	* Merge Brent McBride's 'Investment-lot-CAGR-columns' into stable. (origin/stable, origin/HEAD)
+
+2026-06-26 John Ralls 
+
+	* Fix up the translation file headers.
+
+2026-06-26 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-06-26 Abdulsalam Alshilash 
+
+	* Translation update  by Abdulsalam Alshilash <ashalash@msn.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Merge translations from Weblate into stable.
+
+2026-06-26 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-06-26 Adil Ishaq 
+
+	* Translation update  by Adil Ishaq <ishaqadil@aol.com> using Weblate
+
+2026-06-26 iceberg 
+
+	* Translation update  by iceberg <usurprisedme@gmail.com> using Weblate
+
+2026-06-26 TheRealOne78 
+
+	* Translation update  by TheRealOne78 <bajcsielias78@gmail.com> using Weblate
+
+2026-06-26 Hemant More 
+
+	* Translation update  by Hemant More <foil-pastor-omen@duck.com> using Weblate
+
+2026-06-26 YOSHINO Yoshihito 
+
+	* Translation update  by YOSHINO Yoshihito <yy.y.ja.jp@gmail.com> using Weblate
+
+2026-06-26 soramikan 
+
+	* Translation update  by soramikan <sora_yana@icloud.com> using Weblate
+
+2026-06-26 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Andi Chandler 
+
+	* Translation update  by Andi Chandler <andi@gowling.com> using Weblate
+
+2026-06-26 Raynition 
+
+	* Translation update  by Raynition <raynition@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Itsmechinmoy 
+
+	* Translation update  by Itsmechinmoy <167056923+itsmechinmoy@users.noreply.github.com> using Weblate
+
+2026-06-26 Kryštof Černý 
+
+	* Translation update  by Kryštof Černý <cleverline1mc@gmail.com> using Weblate
+
+2026-06-26 Mirek Špaňko 
+
+	* Translation update  by Mirek Špaňko <mirekspanko@hotmail.cz> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+100824@weblate.org> using Weblate
+
+2026-06-26 acemk 
+
+	* Translation update  by acemk <ace.dimitrievski@gmail.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Bojan Topalovski 
+
+	* Translation update  by Bojan Topalovski <3dcncinfo@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 acemk 
+
+	* Translation update  by acemk <ace.dimitrievski@gmail.com> using Weblate
+
+2026-06-26 Vesna Micajkova 
+
+	* Translation update  by Vesna Micajkova <vmicajkova@institutpraktikum.mk> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Максим Горпиніч 
+
+	* Translation update  by Максим Горпиніч <maksimgorpinic4@gmail.com> using Weblate
+
+2026-06-26 Artem 
+
+	* Translation update  by Artem <artem@molotov.work> using Weblate
+
+2026-06-26 User2068 
+
+	* Translation update  by User2068 <user603849745775@proton.me> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <mgorpinic2005@gmail.com> using Weblate
+
+2026-06-26 Yuri Chornoivan 
+
+	* Translation update  by Yuri Chornoivan <yurchor@ukr.net> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Luna Jernberg 
+
+	* Translation update  by Luna Jernberg <droidbittin@gmail.com> using Weblate
+
+2026-06-26 bittin1ddc447d824349b2 
+
+	* Translation update  by bittin1ddc447d824349b2 <bittin@reimu.nl> using Weblate
+
+2026-06-26 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <arve.eriksson@startmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 TheRealOne78 
+
+	* Translation update  by TheRealOne78 <bajcsielias78@gmail.com> using Weblate
+
+2026-06-26 Dan Purice 
+
+	* Translation update  by Dan Purice <dan.purice@outlook.com> using Weblate
+
+2026-06-26 Andrea Andrei 
+
+	* Translation update  by Andrea Andrei <andrea.tsg19@slmail.me> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+36847@weblate.org> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 mid-kid 
+
+	* Translation update  by mid-kid <esteve.varela@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Marko Bojović 
+
+	* Translation update  by Marko Bojović <bojovicmarko@outlook.com> using Weblate
+
+2026-06-26 Milan Šalka 
+
+	* Translation update  by Milan Šalka <salka.milan@googlemail.com> using Weblate
+
+2026-06-26 Robert Zelnik 
+
+	* Translation update  by Robert Zelnik <rzelnik@tvorivo.sk> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 ZdPo Ster 
+
+	* Translation update  by ZdPo Ster <zdposter@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Dullus 
+
+	* Translation update  by Dullus <dullus@gmail.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+113042@weblate.org> using Weblate
+
+2026-06-26 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Mehrdad Vosoughi 
+
+	* Translation update  by Mehrdad Vosoughi <mohsen.vosoughi@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Enrique Ayesta Perojo 
+
+	* Translation update  by Enrique Ayesta Perojo <eayesta@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Sune Kibsgaard 
+
+	* Translation update  by Sune Kibsgaard <sune@kibs.dk> using Weblate
+
+2026-06-26 Cecilie Nielsen 
+
+	* Translation update  by Cecilie Nielsen <cecilie.nielsen1984@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Allan Olsen 
+
+	* Translation update  by Allan Olsen <allan@hamann-olsen.dk> using Weblate
+
+2026-06-26 Tomáš Václavík 
+
+	* Translation update  by Tomáš Václavík <t3vaclavik@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Jerry 
+
+	* Translation update  by Jerry <nezbeda@protonmail.com> using Weblate
+
+2026-06-26 Mirek Špaňko 
+
+	* Translation update  by Mirek Špaňko <mirekspanko@hotmail.cz> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Kryštof Černý 
+
+	* Translation update  by Kryštof Černý <cleverline1mc@gmail.com> using Weblate
+
+2026-06-26 Abdulla Alhosani 
+
+	* Translation update  by Abdulla Alhosani <ama1029@nyu.edu> using Weblate
+
+2026-06-26 Sherif ElGamal 
+
+	* Translation update  by Sherif ElGamal <selgamal0@gmail.com> using Weblate
+
+2026-06-26 ButterflyOfFire 
+
+	* Translation update  by ButterflyOfFire <boffire@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 BL 
+
+	* Translation update  by BL <ghostzeko@gmail.com> using Weblate
+
+2026-06-26 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2026-06-26 Tgol Mgol 
+
+	* Translation update  by Tgol Mgol <tgolmgol@gmail.com> using Weblate
+
+2026-06-26 Abdulsalam Alshilash 
+
+	* Translation update  by Abdulsalam Alshilash <ashalash@msn.com> using Weblate
+
+2026-06-26 laole 
+
+	* Translation update  by laole <lovedebushiu@qq.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 SIB 
+
+	* Translation update  by SIB <shawndu0820@gmail.com> using Weblate
+
+2026-06-26 Yu Hongbo 
+
+	* Translation update  by Yu Hongbo <linuxbckp@gmail.com> using Weblate
+
+2026-06-26 帅是我2 
+
+	* Translation update  by 帅是我2 <a1173522112@163.com> using Weblate
+
+2026-06-26 fliukka 
+
+	* Translation update  by fliukka <weblate@fliukka.net> using Weblate
+
+2026-06-26 derxi 
+
+	* Translation update  by derxi <happycxin@163.com> using Weblate
+
+2026-06-26 Carlson Mak 
+
+	* Translation update  by Carlson Mak <hbmaak@gmail.com> using Weblate
+
+2026-06-26 Boyuan Yang 
+
+	* Translation update  by Boyuan Yang <073plan@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+62046@weblate.org> using Weblate
+
+2026-06-26 J0kWang 
+
+	* Translation update  by J0kWang <lianjiefly@gmail.com> using Weblate
+
+2026-06-26 Zhaoquan Huang 
+
+	* Translation update  by Zhaoquan Huang <zhaoquan2008@hotmail.com> using Weblate
+
+2026-06-26 cjh 
+
+	* Translation update  by cjh <cjh@cjh0613.com> using Weblate
+
+2026-06-26 Sean Guan 
+
+	* Translation update  by Sean Guan <guanshangkang@gmail.com> using Weblate
+
+2026-06-26 yuht 
+
+	* Translation update  by yuht <yuht@qq.com> using Weblate
+
+2026-06-26 DGDS 
+
+	* Translation update  by DGDS <dagrinddontstop@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 aba2222 
+
+	* Translation update  by aba2222 <ABCSSS2021@outlook.com> using Weblate
+
+2026-06-26 yu0A 
+
+	* Translation update  by yu0A <yuhongbo@member.fsf.org> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <hamburger1024@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2026-06-26 chokore 
+
+	* Translation update  by chokore <byt2ooo@163.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Gurkan Bebek 
+
+	* Translation update  by Gurkan Bebek <gurkanbebek@gmail.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+136605@weblate.org> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Bora Atıcı 
+
+	* Translation update  by Bora Atıcı <boratici.acc@gmail.com> using Weblate
+
+2026-06-26 udo pton 
+
+	* Translation update  by udo pton <udopton@gmail.com> using Weblate
+
+2026-06-26 Oğuz Ersen 
+
+	* Translation update  by Oğuz Ersen <oguz@ersen.moe> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Ömer Faruk Çakmak 
+
+	* Translation update  by Ömer Faruk Çakmak <omerfarukckmk@protonmail.com> using Weblate
+
+2026-06-26 Oğuz Ersen 
+
+	* Translation update  by Oğuz Ersen <oguz@ersen.moe> using Weblate
+
+2026-06-26 Muha Aliss 
+
+	* Translation update  by Muha Aliss <muhaaliss@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Bora Atıcı 
+
+	* Translation update  by Bora Atıcı <boratici.acc@gmail.com> using Weblate
+
+2026-06-26 udo pton 
+
+	* Translation update  by udo pton <udopton@gmail.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+136605@weblate.org> using Weblate
+
+2026-06-26 Tur 
+
+	* Translation update  by Tur <tur+translate@simplelogin.fr> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 soramikan 
+
+	* Translation update  by soramikan <sora_yana@icloud.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 TANIGUCHI Yasuaki 
+
+	* Translation update  by TANIGUCHI Yasuaki <yasuakit+weblate@gmail.com> using Weblate
+
+2026-06-26 YOSHINO Yoshihito 
+
+	* Translation update  by YOSHINO Yoshihito <yy.y.ja.jp@gmail.com> using Weblate
+
+2026-06-26 toddchou 
+
+	* Translation update  by toddchou <toddchou@gmail.com> using Weblate
+
+2026-06-26 J0kWang 
+
+	* Translation update  by J0kWang <lianjiefly@gmail.com> using Weblate
+
+2026-06-26 峡州仙士 
+
+	* Translation update  by 峡州仙士 <c@cjh0613.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+62046@weblate.org> using Weblate
+
+2026-06-26 Zhaoquan Huang 
+
+	* Translation update  by Zhaoquan Huang <zhaoquan2008@hotmail.com> using Weblate
+
+2026-06-26 Theresa Zhang 
+
+	* Translation update  by Theresa Zhang <theresa7qing@sina.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <hamburger1024@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 DGDS 
+
+	* Translation update  by DGDS <dagrinddontstop@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2026-06-26 bruh 
+
+	* Translation update  by bruh <quangtrung02hn16@gmail.com> using Weblate
+
+2026-06-26 bittin1ddc447d824349b2 
+
+	* Translation update  by bittin1ddc447d824349b2 <bittin@reimu.nl> using Weblate
+
+2026-06-26 Kristoffer Grundström 
+
+	* Translation update  by Kristoffer Grundström <swedishsailfishosuser@tutanota.com> using Weblate
+
+2026-06-26 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <arve.eriksson@startmail.com> using Weblate
+
+2026-06-26 Dullus 
+
+	* Translation update  by Dullus <dullus@gmail.com> using Weblate
+
+2026-06-26 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+113042@weblate.org> using Weblate
+
+2026-06-26 Yurt Page 
+
+	* Translation update  by Yurt Page <yurtpage+weblate@gmail.com> using Weblate
+
+2026-06-26 Даниил Морозюк 
+
+	* Translation update  by Даниил Морозюк <morozdan2003@gmail.com> using Weblate
+
+2026-06-26 Alex Maryson Jr. 
+
+	* Translation update  by "Alex Maryson Jr." <akamar87@gmail.com> using Weblate
+
+2026-06-26 Val Saven 
+
+	* Translation update  by Val Saven <val.saven@gmail.com> using Weblate
+
+2026-06-26 Vin 
+
+	* Translation update  by Vin <k3kelm4vw@mozmail.com> using Weblate
+
+2026-06-26 gfbdrgng 
+
+	* Translation update  by gfbdrgng <hnaofegnp@hldrive.com> using Weblate
+
+2026-06-26 hades 
+
+	* Translation update  by hades <dev@hades.name> using Weblate
+
+2026-06-26 Muhammadyusuf Kurbonov 
+
+	* Translation update  by Muhammadyusuf Kurbonov <muhammadyusuf.kurbonov2002@gmail.com> using Weblate
+
+2026-06-26 Nikita Samoilov 
+
+	* Translation update  by Nikita Samoilov <n.p.samoilov@gmail.com> using Weblate
+
+2026-06-26 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@protonmail.com> using Weblate
+
+2026-06-26 vim 
+
+	* Translation update  by vim <dev.getport@slmail.me> using Weblate
+
+2026-06-26 Kaligula 
+
+	* Translation update  by Kaligula <kaligula.dev@gmail.com> using Weblate
+
+2026-06-26 Henio Szewczyk 
+
+	* Translation update  by Henio Szewczyk <henryk.szewczyk09@gmail.com> using Weblate
+
+2026-06-26 Jaimie85 
+
+	* Translation update  by Jaimie85 <alsemgeest@gmail.com> using Weblate
+
+2026-06-26 BlueRains 
+
+	* Translation update  by BlueRains <83722494+BlueRains@users.noreply.github.com> using Weblate
+
+2026-06-26 Geert Janssens 
+
+	* Translation update  by Geert Janssens <geert@kobaltwit.be> using Weblate
+
+2026-06-26 Geert Janssens 
+
+	* Translation update  by Geert Janssens <info@kobaltwit.be> using Weblate
+
+2026-06-26 Stephan Paternotte 
+
+	* Translation update  by Stephan Paternotte <stephan@paternottes.net> using Weblate
+
+2026-06-26 eol 
+
+	* Translation update  by eol <joshua.de.clercq@gmail.com> using Weblate
+
+2026-06-26 Ceaus 
+
+	* Translation update  by Ceaus <github@pohw.nl> using Weblate
+
+2026-06-26 Allan Nordhøy 
+
+	* Translation update  by Allan Nordhøy <epost@anotheragency.no> using Weblate
+
+2026-06-26 Magnus Røkke 
+
+	* Translation update  by Magnus Røkke <mrokke@gmail.com> using Weblate
+
+2026-06-26 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2026-06-26 Rune Osnes 
+
+	* Translation update  by Rune Osnes <osnes.rune@gmail.com> using Weblate
+
+2026-06-26 Tadas Masiulionis 
+
+	* Translation update  by Tadas Masiulionis <tadzikaz@gmail.com> using Weblate
+
+2026-06-26 Kornelijus Tvarijanavičius 
+
+	* Translation update  by Kornelijus Tvarijanavičius <kornelijus@tvaria.com> using Weblate
+
+2026-06-26 Reza Almanda 
+
+	* Translation update  by Reza Almanda <rezaalmanda27@gmail.com> using Weblate
+
+2026-06-26 Azhar Pusparadhian 
+
+	* Translation update  by Azhar Pusparadhian <pazhar@rocketmail.com> using Weblate
+
+2026-06-26 Sucipto 
+
+	* Translation update  by Sucipto <sucipto@pm.me> using Weblate
+
+2026-06-26 Syahmin Sukhairi 
+
+	* Translation update  by Syahmin Sukhairi <syahmin@gmail.com> using Weblate
+
+2026-06-26 Ferdinand Tampubolon 
+
+	* Translation update  by Ferdinand Tampubolon <dnandz@gmail.com> using Weblate
+
+2026-06-26 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2026-06-26 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2026-06-26 K. Herbert 
+
+	* Translation update  by "K. Herbert" <herbert.ka@mailo.com> using Weblate
+
+2026-06-26 Q 
+
+	* Translation update  by Q <qualaelay@gmail.com> using Weblate
+
+2026-06-26 ayiniho 
+
+	* Translation update  by ayiniho <ayiniho@tedomum.net> using Weblate
+
+2026-06-26 Julien Humbert 
+
+	* Translation update  by Julien Humbert <julroy67@gmail.com> using Weblate
+
+2026-06-26 Laurent Aufrere 
+
+	* Translation update  by Laurent Aufrere <lecture@cbol.org> using Weblate
+
+2026-06-26 Sébastien Ray 
+
+	* Translation update  by Sébastien Ray <sebastien.ray@normalesup.org> using Weblate
+
+2026-06-26 Thomas Jungers 
+
+	* Translation update  by Thomas Jungers <thomasjungers@gmail.com> using Weblate
+
+2026-06-26 Vincent Dawans 
+
+	* Translation update  by Vincent Dawans <dawansv@gmail.com> using Weblate
+
+2026-06-26 aleksej0R 
+
+	* Translation update  by aleksej0R <omolice@hotmail.fr> using Weblate
+
+2026-06-26 Anastasios Ikonomou 
+
+	* Translation update  by Anastasios Ikonomou <anastasios.ikonomou@gmail.com> using Weblate
+
+2026-06-26 Un Anonyme 
+
+	* Translation update  by Un Anonyme <vehrzafk1@gmail.com> using Weblate
+
+2026-06-26 Marko Kohtala 
+
+	* Translation update  by Marko Kohtala <marko.kohtala@gmail.com> using Weblate
+
+2026-06-26 Jyri-Petteri Paloposki 
+
+	* Translation update  by Jyri-Petteri Paloposki <jyri-petteri.paloposki@iki.fi> using Weblate
+
+2026-06-26 Kaantaja 
+
+	* Translation update  by Kaantaja <ufdbvgoljrjkrkyyub@ianvvn.com> using Weblate
+
+2026-06-26 Sampo Harjula 
+
+	* Translation update  by Sampo Harjula <sahtor.weblate@sahtor.net> using Weblate
+
+2026-06-26 Metroseksuaali 
+
+	* Translation update  by Metroseksuaali <timmy.kinnunen@elisanet.fi> using Weblate
+
+2026-06-26 ΑΓΡΟΤΙΚΟΣ ΣΥΝΕΤΑΙΡΙΣΜΟΣ ΤΥΛΙΣΟΥ 
+
+	* Translation update  by ΑΓΡΟΤΙΚΟΣ ΣΥΝΕΤΑΙΡΙΣΜΟΣ ΤΥΛΙΣΟΥ <astilisos209@gmail.com> using Weblate
+
+2026-06-26 THANOS SIOURDAKIS 
+
+	* Translation update  by THANOS SIOURDAKIS <siourdakisthanos@gmail.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Gregory-K 
+
+	* Translation update  by Gregory-K <lifeturn@gmail.com> using Weblate
+
+2026-06-26 Eugenia Russell 
+
+	* Translation update  by Eugenia Russell <eugenia.russell2019@gmail.com> using Weblate
+
+2026-06-26 Frank H. Ellenberger 
+
+	* Translation update  by "Frank H. Ellenberger" <frank.h.ellenberger@gmail.com> using Weblate
+
+2026-06-26 Tobias Mohr 
+
+	* Translation update  by Tobias Mohr <tobias_mohr_1991@gmx.de> using Weblate
+
+2026-06-26 Joachim Wetzig 
+
+	* Translation update  by Joachim Wetzig <jo.wetzig@web.de> using Weblate
+
+2026-06-26 Marco Zietzling 
+
+	* Translation update  by Marco Zietzling <marco.zietzling@gmail.com> using Weblate
+
+2026-06-26 Manuel Bichler 
+
+	* Translation update  by Manuel Bichler <felseninsel@hotmail.com> using Weblate
+
+2026-06-26 Frank H. Ellenberger 
+
+	* Translation update  by "Frank H. Ellenberger" <frank.h.ellenberger@gmail.com> using Weblate
+
+2026-06-26 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-06-26 Moritz Höppner 
+
+	* Translation update  by Moritz Höppner <moritz.hoeppner@resourcify.de> using Weblate
+
+2026-06-26 Aputsiak Niels Janussen 
+
+	* Translation update  by Aputsiak Niels Janussen <aj@isit.gl> using Weblate
+
+2026-06-26 Sune Kibsgaard 
+
+	* Translation update  by Sune Kibsgaard <sune@kibs.dk> using Weblate
+
+2026-06-26 Cecilie Nielsen 
+
+	* Translation update  by Cecilie Nielsen <cecilie.nielsen1984@gmail.com> using Weblate
+
+2026-06-26 Allan Olsen 
+
+	* Translation update  by Allan Olsen <allan@hamann-olsen.dk> using Weblate
+
+2026-06-26 Ivan Kostov 
+
+	* Translation update  by Ivan Kostov <jiveq1@gmail.com> using Weblate
+
+2026-06-26 Angel Ivanov 
+
+	* Translation update  by Angel Ivanov <angel.forcebg@gmail.com> using Weblate
+
+2026-06-26 Aleksandar Hadzhivelichkov 
+
+	* Translation update  by Aleksandar Hadzhivelichkov <Raphaelo245@gmail.com> using Weblate
+
+2026-06-26 BL 
+
+	* Translation update  by BL <ghostzeko@gmail.com> using Weblate
+
+2026-06-26 Abdulsalam Alshilash 
+
+	* Translation update  by Abdulsalam Alshilash <ashalash@msn.com> using Weblate
+
+2026-06-26 Usama Khalil 
+
+	* Translation update  by Usama Khalil <usamafoad@gmail.com> using Weblate
+
+2026-06-26 Tgol Mgol 
+
+	* Translation update  by Tgol Mgol <tgolmgol@gmail.com> using Weblate
+
+2026-06-26 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Sherif ElGamal 
+
+	* Translation update  by Sherif ElGamal <selgamal0@gmail.com> using Weblate
+
+2026-06-26 toddchou 
+
+	* Translation update  by toddchou <toddchou@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Ricky From Hong Kong 
+
+	* Translation update  by Ricky From Hong Kong <lamricky11@hotmail.com> using Weblate
+
+2026-06-26 cjh 
+
+	* Translation update  by cjh <cjh@cjh0613.com> using Weblate
+
+2026-06-26 Newson Parker 
+
+	* Translation update  by Newson Parker <2434843612@qq.com> using Weblate
+
+2026-06-26 hanyang cheng 
+
+	* Translation update  by hanyang cheng <cinxiafortis@tutanota.de> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Brian Hsu 
+
+	* Translation update  by Brian Hsu <brianhsu.hsu@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 bruh 
+
+	* Translation update  by bruh <quangtrung02hn16@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Frank H. Ellenberger 
+
+	* Translation update  by "Frank H. Ellenberger" <frank.h.ellenberger@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Adil Ishaq 
+
+	* Translation update  by Adil Ishaq <ishaqadil@aol.com> using Weblate
+
+2026-06-26 Abdul Quddos (AQN) 
+
+	* Translation update  by "Abdul Quddos (AQN)" <yousufi81@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 தமிழ்நேரம் 
+
+	* Translation update  by தமிழ்நேரம் <tamilneram247@gmail.com> using Weblate
+
+2026-06-26 hitmman 
+
+	* Translation update  by hitmman <hitmman@gmail.com> using Weblate
+
+2026-06-26 Alex Maryson Jr. 
+
+	* Translation update  by "Alex Maryson Jr." <akamar87@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Localizer 
+
+	* Translation update  by Localizer <Localizer_in_Russian@protonmail.com> using Weblate
+
+2026-06-26 Val Saven 
+
+	* Translation update  by Val Saven <val.saven@gmail.com> using Weblate
+
+2026-06-26 Vin 
+
+	* Translation update  by Vin <k3kelm4vw@mozmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 hades 
+
+	* Translation update  by hades <dev@hades.name> using Weblate
+
+2026-06-26 Xangel2Net 
+
+	* Translation update  by Xangel2Net <xangel1@mail.ru> using Weblate
+
+2026-06-26 МАН69К 
+
+	* Translation update  by МАН69К <weblate@mah69k.net> using Weblate
+
+2026-06-26 Nikita Samoilov 
+
+	* Translation update  by Nikita Samoilov <n.p.samoilov@gmail.com> using Weblate
+
+2026-06-26 Yurt Page 
+
+	* Translation update  by Yurt Page <yurtpage+weblate@gmail.com> using Weblate
+
+2026-06-26 Yegor Derevenets 
+
+	* Translation update  by Yegor Derevenets <yegor.derevenets@gmail.com> using Weblate
+
+2026-06-26 gfbdrgng 
+
+	* Translation update  by gfbdrgng <hnaofegnp@hldrive.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Olesya_Gerasimenko 
+
+	* Translation update  by Olesya_Gerasimenko <gammaray@basealt.ru> using Weblate
+
+2026-06-26 Willian Bruno 
+
+	* Translation update  by Willian Bruno <willianramos373@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Leandro Conca 
+
+	* Translation update  by Leandro Conca <lluccia@gmail.com> using Weblate
+
+2026-06-26 David 
+
+	* Translation update  by David <davidgmartins98@gmail.com> using Weblate
+
+2026-06-26 Jonathan Santos Fernandes 
+
+	* Translation update  by Jonathan Santos Fernandes <jonathansantosfernandes@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 delvani 
+
+	* Translation update  by delvani <del.cidrak@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 leyakid803 
+
+	* Translation update  by leyakid803 <leyakid803@minduls.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Henio Szewczyk 
+
+	* Translation update  by Henio Szewczyk <henryk.szewczyk09@gmail.com> using Weblate
+
+2026-06-26 WaldiS 
+
+	* Translation update  by WaldiS <sto@tutanota.de> using Weblate
+
+2026-06-26 наб 
+
+	* Translation update  by наб <nabijaczleweli@nabijaczleweli.xyz> using Weblate
+
+2026-06-26 Maciej Błędkowski 
+
+	* Translation update  by Maciej Błędkowski <mble@tuta.io> using Weblate
+
+2026-06-26 Jacek Baszkiewicz 
+
+	* Translation update  by Jacek Baszkiewicz <j.baszkiewicz@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 MJH 
+
+	* Translation update  by MJH <ovehis@riseup.net> using Weblate
+
+2026-06-26 Rcvrvugyvgvb 
+
+	* Translation update  by Rcvrvugyvgvb <xzdfrlhz@duck.com> using Weblate
+
+2026-06-26 vim 
+
+	* Translation update  by vim <dev.getport@slmail.me> using Weblate
+
+2026-06-26 Eryk Michalak 
+
+	* Translation update  by Eryk Michalak <gnu.ewm@protonmail.com> using Weblate
+
+2026-06-26 Kaligula 
+
+	* Translation update  by Kaligula <kaligula.dev@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Leo Moons 
+
+	* Translation update  by Leo Moons <Leo.Moons@proximus.be> using Weblate
+
+2026-06-26 Rene Lambers 
+
+	* Translation update  by Rene Lambers <jbh.lambers@gmail.com> using Weblate
+
+2026-06-26 insensitiveclod 
+
+	* Translation update  by insensitiveclod <contact@sociallife.org> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Jaimie85 
+
+	* Translation update  by Jaimie85 <alsemgeest@gmail.com> using Weblate
+
+2026-06-26 BlueRains 
+
+	* Translation update  by BlueRains <83722494+BlueRains@users.noreply.github.com> using Weblate
+
+2026-06-26 Ceaus 
+
+	* Translation update  by Ceaus <github@pohw.nl> using Weblate
+
+2026-06-26 hamaryns 
+
+	* Translation update  by hamaryns <hendrik@hendrikmaryns.name> using Weblate
+
+2026-06-26 Geert Janssens 
+
+	* Translation update  by Geert Janssens <info@kobaltwit.be> using Weblate
+
+2026-06-26 Stephan Paternotte 
+
+	* Translation update  by Stephan Paternotte <stephan@paternottes.net> using Weblate
+
+2026-06-26 Geert Janssens 
+
+	* Translation update  by Geert Janssens <geert@kobaltwit.be> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Diggaj Upadhyay 
+
+	* Translation update  by Diggaj Upadhyay <dcozupadhyay@duck.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Tor Berg 
+
+	* Translation update  by Tor Berg <tob@samfundet.no> using Weblate
+
+2026-06-26 Kevin Unhammer 
+
+	* Translation update  by Kevin Unhammer <unhammer+dill@mm.st> using Weblate
+
+2026-06-26 Magnus Røkke 
+
+	* Translation update  by Magnus Røkke <mrokke@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Morten Cools 
+
+	* Translation update  by Morten Cools <morten@cools.no> using Weblate
+
+2026-06-26 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2026-06-26 Allan Nordhøy 
+
+	* Translation update  by Allan Nordhøy <epost@anotheragency.no> using Weblate
+
+2026-06-26 Rune Osnes 
+
+	* Translation update  by Rune Osnes <osnes.rune@gmail.com> using Weblate
+
+2026-06-26 Hemant More 
+
+	* Translation update  by Hemant More <foil-pastor-omen@duck.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Hemant More 
+
+	* Translation update  by Hemant More <hemantrmore@tutanota.com> using Weblate
+
+2026-06-26 Rahul Shirke 
+
+	* Translation update  by Rahul Shirke <sabretou@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Kornelijus Tvarijanavičius 
+
+	* Translation update  by Kornelijus Tvarijanavičius <kornelijus@tvaria.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Tadas Masiulionis 
+
+	* Translation update  by Tadas Masiulionis <tadzikaz@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Subin Song 
+
+	* Translation update  by Subin Song <subin@subinsong.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 이정희 
+
+	* Translation update  by 이정희 <daemul72@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Flynn 
+
+	* Translation update  by Flynn <cirilla@tuta.io> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Giuseppe Foti 
+
+	* Translation update  by Giuseppe Foti <foti.giuseppe@gmail.com> using Weblate
+
+2026-06-26 Syahmin Sukhairi 
+
+	* Translation update  by Syahmin Sukhairi <syahmin@gmail.com> using Weblate
+
+2026-06-26 Azhar Pusparadhian 
+
+	* Translation update  by Azhar Pusparadhian <pazhar@rocketmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Reza Almanda 
+
+	* Translation update  by Reza Almanda <rezaalmanda27@gmail.com> using Weblate
+
+2026-06-26 Sucipto 
+
+	* Translation update  by Sucipto <sucipto@pm.me> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Andika Triwidada 
+
+	* Translation update  by Andika Triwidada <andika@gmail.com> using Weblate
+
+2026-06-26 Sarekashi 
+
+	* Translation update  by Sarekashi <sarekashi@tuta.io> using Weblate
+
+2026-06-26 Ferdinand Tampubolon 
+
+	* Translation update  by Ferdinand Tampubolon <dnandz@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2026-06-26 ovari 
+
+	* Translation update  by ovari <ovari123@zoho.com> using Weblate
+
+2026-06-26 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-06-26 mocsa 
+
+	* Translation update  by mocsa <csaba@feltoltve.hu> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Carsten Hütter 
+
+	* Translation update  by Carsten Hütter <Carsten.Huetter@gmx.de> using Weblate
+
+2026-06-26 Hindi and Sanskrit Speaker 
+
+	* Translation update  by Hindi and Sanskrit Speaker <ifiotsbywzpamtrbbk@wqcefp.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Hemanshu Kumar 
+
+	* Translation update  by Hemanshu Kumar <hemanshusubs@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2026-06-26 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2026-06-26 KULDIP PIPALIYA 
+
+	* Translation update  by KULDIP PIPALIYA <kuldipem@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Laurent Bigonville 
+
+	* Translation update  by Laurent Bigonville <bigon@bigon.be> using Weblate
+
+2026-06-26 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Dyf_Tfh 
+
+	* Translation update  by Dyf_Tfh <n.zhao@hotmail.fr> using Weblate
+
+2026-06-26 Pascal HUE 
+
+	* Translation update  by Pascal HUE <pascal.hue35@gmail.com> using Weblate
+
+2026-06-26 J. Lavoie 
+
+	* Translation update  by "J. Lavoie" <j.lavoie@net-c.ca> using Weblate
+
+2026-06-26 Julien Humbert 
+
+	* Translation update  by Julien Humbert <julroy67@gmail.com> using Weblate
+
+2026-06-26 Christopher Lam 
+
+	* Translation update  by Christopher Lam <christopher.lck@gmail.com> using Weblate
+
+2026-06-26 Sébastien Ray 
+
+	* Translation update  by Sébastien Ray <sebastien.ray@normalesup.org> using Weblate
+
+2026-06-26 Alexandre 
+
+	* Translation update  by Alexandre <nasmi3+weblate@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Thomas Jungers 
+
+	* Translation update  by Thomas Jungers <thomasjungers@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Gaël CATLLA 
+
+	* Translation update  by Gaël CATLLA <gcatlla@free.fr> using Weblate
+
+2026-06-26 Frédéric Mergey 
+
+	* Translation update  by Frédéric Mergey <fmergey@yahoo.com> using Weblate
+
+2026-06-26 aleksej0R 
+
+	* Translation update  by aleksej0R <omolice@hotmail.fr> using Weblate
+
+2026-06-26 Bernard Giroud 
+
+	* Translation update  by Bernard Giroud <bgiroud33@gmail.com> using Weblate
+
+2026-06-26 Martin LORANG 
+
+	* Translation update  by Martin LORANG <wablate@lorang.net> using Weblate
+
+2026-06-26 Anastasios Ikonomou 
+
+	* Translation update  by Anastasios Ikonomou <anastasios.ikonomou@gmail.com> using Weblate
+
+2026-06-26 Laurent Aufrere 
+
+	* Translation update  by Laurent Aufrere <lecture@cbol.org> using Weblate
+
+2026-06-26 Vincent Dawans 
+
+	* Translation update  by Vincent Dawans <dawansv@gmail.com> using Weblate
+
+2026-06-26 Philippe Lamare 
+
+	* Translation update  by Philippe Lamare <ph.lamare@free.fr> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Maxime Leroy 
+
+	* Translation update  by Maxime Leroy <lisacintosh@gmail.com> using Weblate
+
+2026-06-26 Sampo Harjula 
+
+	* Translation update  by Sampo Harjula <sahtor.weblate@sahtor.net> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Ricky Tigg 
+
+	* Translation update  by Ricky Tigg <ricky.tigg@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Jyri-Petteri Paloposki 
+
+	* Translation update  by Jyri-Petteri Paloposki <jyri-petteri.paloposki@iki.fi> using Weblate
+
+2026-06-26 Marko Kohtala 
+
+	* Translation update  by Marko Kohtala <marko.kohtala@gmail.com> using Weblate
+
+2026-06-26 Jiri Grönroos 
+
+	* Translation update  by Jiri Grönroos <jiri.gronroos@iki.fi> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Priit Jõerüüt 
+
+	* Translation update  by Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 Rauno Ots 
+
+	* Translation update  by Rauno Ots <rots00@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+36847@weblate.org> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+48943@weblate.org> using Weblate
+
+2026-06-26 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Deleted User 
+
+	* Translation update  by Deleted User <noreply+36847@weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Adithya K 
+
+	* Translation update  by Adithya K <adithyak04@gmail.com> using Weblate
+
+2026-06-26 Andi Chandler 
+
+	* Translation update  by Andi Chandler <andi@gowling.com> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Gregory-K 
+
+	* Translation update  by Gregory-K <lifeturn@gmail.com> using Weblate
+
+2026-06-26 giorgos georgopoulakis 
+
+	* Translation update  by giorgos georgopoulakis <huskyaek@gmail.com> using Weblate
+
+2026-06-26 Katerina 
+
+	* Translation update  by Katerina <katerina.gakou@hotmail.com> using Weblate
+
+2026-06-26 George Petsagourakis 
+
+	* Translation update  by George Petsagourakis <petsagouris@gmail.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Dimitris Mandalidis 
+
+	* Translation update  by Dimitris Mandalidis <dimitris.mandalidis@gmail.com> using Weblate
+
+2026-06-26 Eugenia Russell 
+
+	* Translation update  by Eugenia Russell <eugenia.russell2019@gmail.com> using Weblate
+
+2026-06-26 Michalis 
+
+	* Translation update  by Michalis <michalisntovas@yahoo.gr> using Weblate
+
+2026-06-26 ΑΓΡΟΤΙΚΟΣ ΣΥΝΕΤΑΙΡΙΣΜΟΣ ΤΥΛΙΣΟΥ 
+
+	* Translation update  by ΑΓΡΟΤΙΚΟΣ ΣΥΝΕΤΑΙΡΙΣΜΟΣ ΤΥΛΙΣΟΥ <astilisos209@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Franko 
+
+	* Translation update  by Franko <web.90947@t.sc-ha.net> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-26 Thomas Kriegel 
+
+	* Translation update  by Thomas Kriegel <thomasMapper@bin-wieder-da.de> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Mechtilde 
+
+	* Translation update  by Mechtilde <ooo@mechtilde.de> using Weblate
+
+2026-06-26 Frank H. Ellenberger 
+
+	* Translation update  by "Frank H. Ellenberger" <frank.h.ellenberger@gmail.com> using Weblate
+
+2026-06-26 Alois Levermann 
+
+	* Translation update  by Alois Levermann <alois@levermann.xyz> using Weblate
+
+2026-06-26 Carsten Hütter 
+
+	* Translation update  by Carsten Hütter <Carsten.Huetter@gmx.de> using Weblate
+
+2026-06-26 Christian Stimming 
+
+	* Translation update  by Christian Stimming <christian@cstimming.de> using Weblate
+
+2026-06-26 Alexej 
+
+	* Translation update  by Alexej <alexejkirsch@outlook.de> using Weblate
+
+2026-06-26 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Adithya K 
+
+	* Translation update  by Adithya K <adithyak04@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Ivan Kostov 
+
+	* Translation update  by Ivan Kostov <jiveq1@gmail.com> using Weblate
+
+2026-06-26 John Ralls 
+
+	* Translation update  by John Ralls <jralls@ceridwen.us> using Weblate
+
+2026-06-26 Itsmechinmoy 
+
+	* Translation update  by Itsmechinmoy <167056923+itsmechinmoy@users.noreply.github.com> using Weblate
+
+2026-06-26 GitHub webhook 
+
+	* Translation update  by GitHub webhook <noreply-webhook-github@weblate.org> using Weblate
+
+2026-06-26 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2026-06-25 John Ralls 
+
+	* Merge Oliver Lok Trevor's 'fix-glist-python-bindings' into stable
+
+2026-06-23 John Ralls 
+
+	* Merge Christopher Lam's 'qof-ctor-dtor' into stable.
+
+2026-06-23 John Ralls 
+
+	* Remove import-utilities.cpp from POTFILES.in
+
+2026-06-23 John Ralls 
+
+	* Merge Noah Noerr's 'online-id-engine-accessors' into stable.
+
+2026-06-21 Noah R 
+
+	* [engine] Add first-class online_id accessors for Split and Account
+
+2026-06-21 Noah R 
+
+	* [engine] Remove the unused Transaction online_id property
+
+2026-06-21 John Ralls 
+
+	* Merge Noerr-Noah's  'bug-split-setparent-kvp-slots' into stable.
+
+2026-06-17 Noah R 
+
+	* Bug 799777 - xaccSplitSetParent: keep a reparented split's KVP slots
+
+2026-06-21 John Ralls 
+
+	* Merge Vincent Lucarelli's 'finnhub into stable.
+
+2026-06-17 Vincent Lucarelli 
+
+	* Add new Finance::Quote source Finnhub.io
+
+2026-06-20 John Ralls 
+
+	* Merge new potfile for GnuCash 5.16
+
+2026-06-20 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-06-14 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-06-14 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-06-19 Christopher Lam 
+
+	* [gnc-commodity.cpp] gnc_quote_source_num_entries speedup
+
+2026-06-17 Brent McBride 
+
+	* Add CAGR columns to Investment Lots report
+
+2026-06-16 Christopher Lam 
+
+	* [guid.cpp] plug char* guid_to_string leak
+
+2026-06-14 Christopher Lam 
+
+	* eradicate QOF_TYPE_COLLECT
+
+2026-06-14 Christopher Lam 
+
+	* [qofid.cpp] use ctor/dtor for QofCollection
+
+2026-06-14 Robert Fewell 
+
+	* Couple of fix-ups for register filter changes
+
+2026-06-07 Robert Fewell 
+
+	* Couple of spelling errors in gnc-accounting-period
+
+2026-06-07 Robert Fewell 
+
+	* Fix fiscal year end use in gnc-period-select
+
+2026-06-07 Robert Fewell 
+
+	* Remove left over code in dialog-preferences.
+
+2026-06-07 Robert Fewell 
+
+	* Bug 421610 - Include logical dates in View->Filter
+
+2026-06-07 Robert Fewell 
+
+	* Remove Doxygen comments from static functions in gnc_plugin_page_register_filter.cpp.
+
+2026-06-07 Robert Fewell 
+
+	* Drop the gnc_ prefix for any static functions in gnc_plugin_page_register_filter.cpp
+
+2026-04-24 Robert Fewell 
+
+	* Remove some missed trailing spaces from gnc_plugin_page_register_filter.c
+
+2026-06-09 Christopher Lam 
+
+	* rename gmock-qofbook.h and gmock-Split.h to .hpp
+
+2026-06-07 Christopher Lam 
+
+	* [qofbook.cpp] move _QofBook definition from qofbook.h to qofbook-p.hpp
+
+2026-06-08 Christopher Lam 
+
+	* [test-qofbook.c] use getters instead of accessing QofBook members
+
+2026-06-07 Christopher Lam 
+
+	* [qofbook.h] add further getters/setters for QofBook
+
+2026-06-05 John Ralls 
+
+	* Merge Peter Kim's 'bug-799767-rest-api-post-accounts' into stable.
+
+2026-06-02 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-05-30 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-05-25 이정희 
+
+	* Translation update  by 이정희 <daemul72@gmail.com> using Weblate
+
+2026-05-25 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-05-25 DGDS 
+
+	* Translation update  by DGDS <dagrinddontstop@users.noreply.hosted.weblate.org> using Weblate
+
+2026-05-25 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-05-29 Christopher Lam 
+
+	* [assistant-loan.cpp] don't use gtk_editable_get_chars
+
+2026-05-27 Christopher Lam 
+
+	* [csv-imp] use ctre instead of boost::regex
+
+2026-05-27 Christopher Lam 
+
+	* [core-utils] upgrade ctre in CMakeLists to public
+
+2026-05-27 Christopher Lam 
+
+	* ensure boost::regex is compiled at startup
+
+2026-05-25 peter 
+
+	* Bug 799767 - POST /accounts route in rest-api example is broken
+
+2026-05-25 John Ralls 
+
+	* Bug 797384 - Gnucash doesn't handle commodity prices with big...
+
+2026-05-24 Robert Fewell 
+
+	* Bug 799766 - Double line preference not respected in search register
+
+2026-05-07 galbarm 
+
+	* Account tree: make numeric columns selectable via GncCellRendererLabel
+
+2026-05-21 John Ralls 
+
+	* Correct the Doxygen doc for qof_instance_get/set_kvp.
+
+2026-05-22 Christopher Lam 
+
+	* [gnc-log-replay.cpp] fix incorrect guid dump
+
+2026-05-22 Christopher Lam 
+
+	* [gnc-aqbanking-templates.cpp] fix incorrect setter, free GList*
+
+2026-05-22 Christopher Lam 
+
+	* [gnc-budget.cpp] null check arguments *before* accessing them
+
+2026-05-21 John Ralls 
+
+	* Update Mac testing to a new depenencies tarball
+
+2026-05-21 John Ralls 
+
+	* Add some Boost library requirements needed by libgnucash-guile.
+
+2026-05-17 Christopher Lam 
+
+	* Merge branch 'ctre-regex' into stable
+
+2026-05-16 Christopher Lam 
+
+	* [gnc-filepath-utils.cpp] use ctre instead of std::regex
+
+2026-05-15 Christopher Lam 
+
+	* [ctre.hpp] add single-header ctre v3.11.0
+
+2026-05-16 Christopher Lam 
+
+	* [gnc-filepath-utils.cpp] null check char* arguments
+
+2026-05-11 John Ralls 
+
+	* Add ChartJS licenses.
+
+2026-05-10 John Ralls 
+
+	* Merge Bruce Schuck's 'rm-aex' of https://github.com/bpschuck/gnucash into stable
+
+2026-05-10 Bruce Schuck 
+
+	* Removed AEX from list of commodities. euronext.com is now using JS based anti-webscraping.
+
+2026-05-08 John Ralls 
+
+	* Merge Sherlock's 'bug-436105' into stable
+
+2026-05-04 Sherlock 
+
+	* Bug 436105 - esc key not working as expected in register
+
+2026-05-08 Christopher Lam 
+
+	* Merge branch 'always-offer-options-summary' into stable
+
+2026-05-07 John Ralls 
+
+	* Merge Sherlock's 'remove-dead-IM_code' into stable.
+
+2026-05-07 John Ralls 
+
+	* Merge Wayne Boyer's 'fix/macos-hidpi-offscreen-text' into stable.
+
+2026-05-07 Wayne Boyer 
+
+	* Fix blurry text in HiDPI offscreen-rendered widgets
+
+2026-05-06 Sherlock 
+
+	* Remove remaining obsolete IMContext from sheet
+
+2026-05-05 Christopher Lam 
+
+	* [reports] remove "Add options summary" report option
+
+2026-05-05 Christopher Lam 
+
+	* [report-core] always offer options summary in reports
+
+2026-05-04 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-05-01 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-05-01 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-05-01 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-05-01 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-04-28 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-28 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-26 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-25 Cecilie Nielsen 
+
+	* Translation update  by Cecilie Nielsen <cecilie.nielsen1984@gmail.com> using Weblate
+
+2026-04-25 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-05-03 John Ralls 
+
+	* Merge Sherlock's 'fix-event-callback' into stable.
+
+2026-04-29 Sherlock 
+
+	* Correct key_press_event and key_release_event callback function return definition.
+
+2026-05-03 John Ralls 
+
+	* Merge Joshua Austill's 'add-port-field-to-db-dialog' into stable.
+
+2026-05-03 John Ralls 
+
+	* Merge Sherlock's 'dont-process-unchanged' into stable.
+
+2026-04-28 Sherlock 
+
+	* Determine if an account in a split has changed before processing it as if it has.
+
+2026-05-01 John Ralls 
+
+	* Merge Kressb's 'starupwmclass' into stable.
+
+2026-05-01 kressb-gitlab 
+
+	* Add StartupWMClass to desktop file
+
+2026-04-30 Alex Aycinena 
+
+	* Wouldn't build on Fedora 44 because warnings were treated as errors: initialized variable not used
+
+2026-04-28 Oliver Lok Trevor 
+
+	* Removed unnecessary list reversal as per code review. Removed stray include.
+
+2025-04-30 Oliver Lok Trevor 
+
+	* Added unit test.
+
+2025-03-29 Oliver Lok Trevor 
+
+	* Made GList converter get type from SWIG itself to avoid long string of type-checks.
+
+2025-03-18 Oliver Lok Trevor 
+
+	* Moved list type conversions for Python to Python-specific binding definition files.
+
+2025-03-15 Oliver Lok Trevor 
+
+	* Added missing include that sometimes causes build errors about INT64_MAX.
+
+2025-03-09 Oliver Lok Trevor 
+
+	* Added SWIG type translator for C functions that take GList* arguments to autoconvert Python lists of high-level Gnucash core objects. Fixes issue with Customer.ApplyPayment in Python (gncOwnerApplyPaymentSecs in C).
+
+2026-04-26 John Ralls 
+
+	* Merge Sherlock's 'handle-placeholder' into stable.
+
+2026-04-24 Sherlock 
+
+	* Bug 799762 - Poor handling of cases where hidden/placeholder accounts are used in the account register
+
+2026-04-22 Joshua Austill 
+
+	* Add port field to database connection dialog
+
+2026-04-22 John Ralls 
+
+	* Merge Christopher Lam's 'stock-assistant-better-memo' into stable.
+
+2025-04-18 Christopher Lam 
+
+	* Bug 798004 - Next gen UI for stock transactions
+
+2026-04-22 John Ralls 
+
+	* Merge latest translations from weblate.
+
+2026-04-20 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-20 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-18 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-18 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-04-17 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-17 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-15 hamaryns 
+
+	* Translation update  by hamaryns <hendrik@hendrikmaryns.name> using Weblate
+
+2026-04-15 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-04-15 Jiri Grönroos 
+
+	* Translation update  by Jiri Grönroos <jiri.gronroos@iki.fi> using Weblate
+
+2026-04-15 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-04-15 Kevin Unhammer 
+
+	* Translation update  by Kevin Unhammer <unhammer+dill@mm.st> using Weblate
+
+2026-04-22 John Ralls 
+
+	* Python Bindings: Destroy the QofSession in the Python Session dtor.
+
+2026-04-22 John Ralls 
+
+	* Return immediately from qof_book_destroy if hash_of_collections is null.
+
+2026-04-21 John Ralls 
+
+	* Merge Sherlock's 'add-sx-run-cmd' into stable.
+
+2026-04-15 Sherlock 
+
+	* Bug 799314 - Add Run command to Schedule Transactions
+
+2026-04-21 Christopher Lam 
+
+	* [completioncell-gnome.c] fix gnc_completion_cell_set_value
+
+2026-04-20 Christopher Lam 
+
+	* [window-main-summarybar.c] plug a GtkWidget* leak
+
+2026-04-20 Christopher Lam 
+
+	* [window-main-summarybar.c] g_free a char*
+
+2026-04-20 Christopher Lam 
+
+	* [gnc-plugin-report-system] use g_markup_printf_escaped for safe html
+
+2026-04-20 Christopher Lam 
+
+	* [window-main-summarybar.c] use g_markup_printf_escaped for safe html
+
+2026-04-19 Geert Janssens 
+
+	* Flathub linter fixes - create longer first paragraph in description
+
+2026-04-19 Geert Janssens 
+
+	* Flathub linter fixes - update developer tag
+
+2026-04-19 Geert Janssens 
+
+	* Shorten screenshot captions in appstream file to satisfy flathub linter
+
+2026-04-13 Geert Janssens 
+
+	* Fix Flathub's recent appstream validation warnings
+
+2026-04-15 Robert Fewell 
+
+	* Use a blocking function to reduce duplication
+
+2026-04-14 Robert Fewell 
+
+	* Change load and save of the filter
+
+2026-04-14 Robert Fewell 
+
+	* Change location of Filter Dialog action widgets
+
+2026-04-14 Robert Fewell 
+
+	* Change location of Sort Dialog action widgets
+
+2026-04-14 Robert Fewell 
+
+	* Use a c++ array for status_actions
+
+2026-04-14 Robert Fewell 
+
+	* Filter and Sort string changes
+
+2026-04-14 Robert Fewell 
+
+	* Use bool instead of gboolean
+
+2026-04-14 Robert Fewell 
+
+	* Change to use auto instead of an explicit type
+
+2026-04-14 Robert Fewell 
+
+	* Change NULL's to nullptr
+
+2026-04-14 Robert Fewell 
+
+	* Change sort and filter files to .cpp and .hpp
+
+2026-04-14 Robert Fewell 
+
+	* Factor out updating the register from sort/filter
+
+2026-04-08 Robert Fewell 
+
+	* Move register filter parts to separate file
+
+2026-04-08 Robert Fewell 
+
+	* Move register sort parts to separate file
+
+2026-04-08 Robert Fewell 
+
+	* Use the added 'Refresh' enum for gnc_split_reg_set_sort_reversed
+
+2026-04-08 Robert Fewell 
+
+	* Do not refresh the register pages when quitting
+
+2026-04-08 Robert Fewell 
+
+	* Bug 799751 - autocomplete crash
+
+2026-04-05 Robert Fewell 
+
+	* Be consistent in naming GncPluginPage and GncPluginPageRegister
+
+2026-04-05 Robert Fewell 
+
+	* Minor realignment of register source files
+
+2026-04-18 John Ralls 
+
+	* Merge Sherlock's 'sx-enable-from-list' into stable.
+
+2026-04-02 Sherlock 
+
+	* Bug 799759 - Users can't Enable entries via Checkboxes on Scheduled Transactions Page
+
+2026-04-16 John Ralls 
+
+	* HTML: Remove unimplemented function declarations.
+
+2026-04-16 John Ralls 
+
+	* Fix new llvm deprecation warning about char_traits<unsigned int> coming from boost::u32regex_replace.
+
+2026-04-16 Christopher Lam 
+
+	* [gnc-html.cpp] remove unused buggy string conversion functions
+
+2026-04-13 John Ralls 
+
+	* Add new Arch package gwenhywfar-gtk3 to Dockerfile.
+
+2026-04-07 Christopher Lam 
+
+	* [gnc-html.i] add missing <cstdio>
+
+2026-04-07 John Ralls 
+
+	* Update CI actions to latest versions
+
+2026-04-07 John Ralls 
+
+	* Fix webkit2gtk install for Arch Linux CI
+
+2026-04-04 John Ralls 
+
+	* Merge Russ Gorby's 'rrg_gnc-html' into stable.
+
+2026-04-03 John Ralls 
+
+	* Fix typo in path to gnc-vcs-info.h
+
+2026-03-31 Russ Gorby 
+
+	* replace GString use with std::string
+
+2026-02-09 Russ Gorby 
+
+	* gnc-html: converted library to C++     - Maintained C-API linkage to exported functions in libgnc-html     - changed SWIG generated file to C++     - Added "noexcept" attribute to the C-APIs gnc-html: more in-depth C++ conversion     - typedef -> using     - NULL -> nullptr     - moved variable declarations to their       initial assignments where appropriate     - fixed a couple cases where early returns       would leak memory     - sscanf, snprintf, strchr -> std:: versions     - converted to std::string_view for parsing loops     - used range-based for loops for string parsing     - used auto for modified functions     - minor cleanup of dead code and whitespave issues
+
+2026-03-29 John Ralls 
+
+	* Apply -Wall -Werr -Wmissing-prototypes to C++ compilation on Windows.
+
+2026-03-29 John Ralls 
+
+	* Update imported actions in coverage.yml
+
+2026-03-29 John Ralls 
+
+	* Remove inadvertently committed boost-1.90 library list change.
+
+2026-03-28 John Ralls 
+
+	* Release GnuCash 5.15 (tag: 5.15)
+
+2026-03-28 John Ralls 
+
+	* Fix CI build failure on Arch Linux
+
+2026-03-28 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-03-28 Ceaus 
+
+	* Translation update  by Ceaus <github@pohw.nl> using Weblate
+
+2026-03-28 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-28 Subin Song 
+
+	* Translation update  by Subin Song <subin@subinsong.com> using Weblate
+
+2026-03-28 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-28 Ceaus 
+
+	* Translation update  by Ceaus <github@pohw.nl> using Weblate
+
+2026-03-27 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-27 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-27 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-27 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-25 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-24 Willian Bruno 
+
+	* Translation update  by Willian Bruno <willianramos373@gmail.com> using Weblate
+
+2026-03-24 Jerry 
+
+	* Translation update  by Jerry <nezbeda@protonmail.com> using Weblate
+
+2026-03-24 hamaryns 
+
+	* Translation update  by hamaryns <hendrik@hendrikmaryns.name> using Weblate
+
+2026-03-24 Jonathan Santos Fernandes 
+
+	* Translation update  by Jonathan Santos Fernandes <jonathansantosfernandes@gmail.com> using Weblate
+
+2026-03-24 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-03-24 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-03-24 Yuri Chornoivan 
+
+	* Translation update  by Yuri Chornoivan <yurchor@ukr.net> using Weblate
+
+2026-03-24 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-24 Kevin Unhammer 
+
+	* Translation update  by Kevin Unhammer <unhammer+dill@mm.st> using Weblate
+
+2026-03-24 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2026-03-24 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@protonmail.com> using Weblate
+
+2026-03-24 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2026-03-24 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-23 John Ralls 
+
+	* Merge Sherlock's 'fix-plugin-page-register-leak' into stable.
+
+2026-03-20 Sherlock 
+
+	* fix plugin page register gui leak
+
+2026-03-22 John Ralls 
+
+	* Revert "Fix tree view gui leak"
+
+2026-03-22 John Ralls 
+
+	* Revert "fix plugin page register gui leak"
+
+2026-03-21 John Ralls 
+
+	* Merge Sherlock's "TreeView GUI Leak" into stable.
+
+2026-03-21 John Ralls 
+
+	* Merge Sherlock's "Plugin Page Register GUI Leak" into stable.
+
+2026-03-21 John Ralls 
+
+	* Merge Sherlock's 'Plugin Page Report Gui Leak' into stable.
+
+2026-03-21 John Ralls 
+
+	* Update message catalogs for new strings in GnuCash 5.15.
+
+2026-03-21 John Ralls 
+
+	* Merge latest tranlations from Weblate.
+
+2026-03-20 Sherlock 
+
+	* Fix plugin page report gui leak
+
+2026-03-20 Sherlock 
+
+	* fix plugin page register gui leak
+
+2026-03-20 Sherlock 
+
+	* Fix tree view gui leak
+
+2026-03-21 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-20 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-20 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-20 தமிழ்நேரம் 
+
+	* Translation update  by தமிழ்நேரம் <tamilneram247@gmail.com> using Weblate
+
+2026-03-19 தமிழ்நேரம் 
+
+	* Translation update  by தமிழ்நேரம் <tamilneram247@gmail.com> using Weblate
+
+2026-03-19 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@protonmail.com> using Weblate
+
+2026-03-19 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-03-19 apemay 
+
+	* Translation update  by apemay <apemay.dev@gmail.com> using Weblate
+
+2026-03-19 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-03-19 apemay 
+
+	* Translation update  by apemay <aperezmayol@gmail.com> using Weblate
+
+2026-03-19 Sune Kibsgaard 
+
+	* Translation update  by Sune Kibsgaard <sune@kibs.dk> using Weblate
+
+2026-03-16 John Ralls 
+
+	* Merge Sherlock's 'completion-cell-leak' into stable.
+
+2026-03-15 Christopher Lam 
+
+	* [gnc-date.cpp] fix ifdef conditional, and comment
+
+2026-03-15 Christopher Lam 
+
+	* [gnc-datetime.cpp] fast_iso8601_utc_parse: precompute length
+
+2026-03-16 John Ralls 
+
+	* Merge No-err's 'pr2-return-type-wrapping' into stable.
+
+2026-03-16 John Ralls 
+
+	* Merge No-err's 'pr1-swig-typemap-compat' into stable.
+
+2026-02-03 Robert Fewell 
+
+	* Control the 'Transaction/Split Paste' menu item
+
+2026-02-03 Robert Fewell 
+
+	* Do not display the date for template duplication
+
+2026-02-03 Robert Fewell 
+
+	* Add tests for copying template transactions.
+
+2026-02-03 Robert Fewell 
+
+	* Fix copying template transactions.
+
+2026-02-03 Robert Fewell 
+
+	* Fix only checking first scheduled transaction
+
+2026-02-03 Robert Fewell 
+
+	* Bug 798122 - Message about unable to balance transaction
+
+2026-02-03 Robert Fewell 
+
+	* Realign a couple of structures in dialog-sx-editor.c
+
+2026-03-14 Sherlock 
+
+	* Fix completion cell gui leak
+
+2026-03-13 Robert Fewell 
+
+	* Remove some surplus items associated with menus and toolbar buttons.
+
+2026-03-13 Robert Fewell 
+
+	* Bug799722 - Inconsistent wording: Bill and Invoice
+
+2026-03-13 Robert Fewell 
+
+	* Adding custom report to a custom sub-menu
+
+2026-02-16 Robert Fewell 
+
+	* Bug 799734 - mapped OFX income account not listed
+
+2026-03-06 Noah R 
+
+	* [python-bindings] Add Split wrapping fixes, refactor tests for CI
+
+2026-03-06 Noah R 
+
+	* [python-bindings] Add get_*_price GncNumeric wrapping, double-wrap protection, and tests
+
+2026-03-06 Noah R 
+
+	* [python-bindings] Fix missing return-type wrapping and clean up examples
+
+2026-03-06 Noah R 
+
+	* [python-bindings] Add SWIG typemap compatibility layer for wrapper objects
+
+2026-03-01 John Ralls 
+
+	* Merge Jon Schewe's 'bug799745' into stable.
+
+2026-02-27 Jon Schewe 
+
+	* [Bug 799745] - Import matcher doesn't handle zero length memo and description properly
+
+2026-02-27 Jon Schewe 
+
+	* Add null checking to string fields
+
+2026-02-27 Jon Schewe 
+
+	* Enhancing debugging output
+
+2026-02-27 John Ralls 
+
+	* Bug 666536 - smallest fraction of KRW is invalid
+
+2026-02-22 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-02-22 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-02-22 Andi Chandler 
+
+	* Translation update  by Andi Chandler <andi@gowling.com> using Weblate
+
+2026-02-22 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-02-22 DGDS 
+
+	* Translation update  by DGDS <dagrinddontstop@users.noreply.hosted.weblate.org> using Weblate
+
+2026-02-22 delvani 
+
+	* Translation update  by delvani <del.cidrak@users.noreply.hosted.weblate.org> using Weblate
+
+2026-02-22 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-02-22 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2026-02-22 Yegor Derevenets 
+
+	* Translation update  by Yegor Derevenets <yegor.derevenets@gmail.com> using Weblate
+
+2026-02-22 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-02-22 hamaryns 
+
+	* Translation update  by hamaryns <hendrik@hendrikmaryns.name> using Weblate
+
+2026-02-20 John Ralls 
+
+	* Merge Noerr Noah's 'fix-gsettings-segfault' into stable.
+
+2024-09-14 Christopher Lam 
+
+	* [reports] use gnc_date_interval_format
+
+2026-02-11 Christopher Lam 
+
+	* [gnc-date.cpp] gnc_date_interval_format localisable with ICU
+
+2026-02-12 Noah 
+
+	* Use g_return_val_if_fail / g_return_if_fail for NULL guards
+
+2026-02-09 Claude 
+
+	* Fix segfault in gnc_gsettings_get_settings_obj when GSettings schemas are not installed
+
+2026-02-06 John Ralls 
+
+	* Merge Roy Hansen's 'improve/csv-import-date-format-info' into stable.
+
+2026-02-02 Roy Hansen 
+
+	* Improve usability of csv-transaction-import by adding tooltip for date-format selection.
+
+2026-02-01 John Ralls 
+
+	* Merge latest translations from Weblate.
+
+2026-02-01 Giuseppe Foti 
+
+	* Translation update  by Giuseppe Foti <foti.giuseppe@gmail.com> using Weblate
+
+2026-02-01 Yegor Derevenets 
+
+	* Translation update  by Yegor Derevenets <yegor.derevenets@gmail.com> using Weblate
+
+2026-02-01 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-02-01 David 
+
+	* Translation update  by David <davidgmartins98@gmail.com> using Weblate
+
+2026-02-01 hamaryns 
+
+	* Translation update  by hamaryns <hendrik@hendrikmaryns.name> using Weblate
+
+2026-02-01 Mirek Špaňko 
+
+	* Translation update  by Mirek Špaňko <mirekspanko@hotmail.cz> using Weblate
+
+2026-02-01 John Ralls 
+
+	* Merge Roy Hansen's 'CSV-reparse' into stable.
+
+2026-02-01 John Ralls 
+
+	* Merge Stefann Koch's 'fix-798873' into stable.
+
+2026-01-31 Christopher Lam 
+
+	* Merge branch 'add_search_invoices_to_customer_list_popup' #2062 into stable
+
+2026-01-31 Christopher Lam 
+
+	* Addendum parent commit -- expand to other owner documents
+
+2026-01-30 Stefan Koch 
+
+	* Bug 798873 - Crash when scrubbing after "undoing” changes
+
+2026-01-25 Stefan Koch 
+
+	* Fix innocuous bug in qofinstance idata property.
+
+2026-01-29 Christopher Lam 
+
+	* [new-owner-report.scm] fix display/due-date tooltip
+
+2026-01-18 Christopher Lam 
+
+	* [Transaction.cpp] use g_list_copy_deep avoiding g_list_append
+
+2026-01-16 Christopher Lam 
+
+	* [gnc-log-replay.cpp] don't need to strdup const char*
+
+2026-01-16 Christopher Lam 
+
+	* [account.cpp] remove unused static var
+
+2026-01-26 Christopher Lam 
+
+	* [trep-engine.scm] grid: replace cell data with nested hash tables
+
+2026-01-27 Christopher Lam 
+
+	* [report-utilities.scm] gnc:make-commodity-collector 'getmonetary-strict
+
+2026-01-25 Christopher Lam 
+
+	* Merge branch 'trep-col-totals' #2170 into stable
+
+2026-01-25 Christopher Lam 
+
+	* [trep-engine] Encapsulate grid state behind a closure
+
+2026-01-24 Christopher Lam 
+
+	* [trep-engine.scm] tally secondary subtotals in subtotal table
+
+2026-01-24 Christopher Lam 
+
+	* [trep-engine.scm] refactor grid renderer
+
+2026-01-25 Christopher Lam 
+
+	* [trep-engine.scm] upgrade grid-add
+
+2026-01-25 Christopher Lam 
+
+	* [trep-engine.scm] use :grid-cell record type
+
+2026-01-24 Christopher Lam 
+
+	* [gnc-commodity.cpp] improve gnc_commodity_compare
+
+2026-01-24 Roy Hansen 
+
+	* Bug - When importing csv-transactions, currency_format is not always properly applied.
+
+2026-01-11 Robert Fewell 
+
+	* Bug 799705 - Remove Old Prices by Namespace
+
+2026-01-17 John Ralls 
+
+	* Merge Stefan Koch's 'sk-unittest-qofid' into stable.
+
+2026-01-16 Christopher Lam 
+
+	* Merge branch 'account-col-earliest-date' into stable #2168
+
+2026-01-15 Stefan Koch 
+
+	* fixup: Review comments about style of code.
+
+2026-01-15 Stefan Koch 
+
+	* fixup: Add the new test-qofid.cpp file the the source distribution.
+
+2026-01-15 Stefan Koch 
+
+	* fixup:  Remove memory leaks in the test code.
+
+2026-01-15 Stefan Koch 
+
+	* Fix undefined behaviour in collection_compare_cb function.
+
+2026-01-13 Stefan Koch 
+
+	* Implement full test coverage of libgnucash/engine/qofid
+
+2026-01-15 Stefan Koch 
+
+	* Explicitly set the is_dirty attribute in qof_collection_new
+
+2026-01-15 Stefan Koch 
+
+	* Remove unused qof_collection_from_glist function.
+
+2026-01-12 Christopher Lam 
+
+	* Account tab can show/sort by Earliest Date column
+
+2026-01-12 Christopher Lam 
+
+	* [balance-forecast.scm] use gnc-account-get-earliest-date
+
+2026-01-12 Christopher Lam 
+
+	* [Account.h] gnc_account_get_earliest_date
+
+2026-01-13 John Ralls 
+
+	* search-reconciled.c: Use uintptr_t instead of specializing on pointer size.
+
+2026-01-13 John Ralls 
+
+	* Modernize strptime.c: prototypes up top and inline parameter type decls.
+
+2026-01-13 John Ralls 
+
+	* Clang on Windows has a different std c++ library and doesn't have a special exception library.
+
+2026-01-13 John Ralls 
+
+	* WORDS_BIGENDIAN needs to be a compile definition and checked with ifdef.
+
+2026-01-13 John Ralls 
+
+	* A better fix for gcc ptr->int casting pickiness.
+
+2026-01-13 Christopher Lam 
+
+	* [gnc-tree-view-account.c] logical bugfix sort by last reconcile date
+
+2026-01-05 John Ralls 
+
+	* gcc 15.2 is really picky about casting between ints of different sizes.
+
+2026-01-05 John Ralls 
+
+	* Guile: Use the right conversion for size_t.
+
+2026-01-05 John Ralls 
+
+	* Mingw 64-bit uses libgcc_s_seh-1 instead of libgcc_s_dw2-1.
+
+2025-12-31 Robert Fewell 
+
+	* Bug 799706 - Rename Namespace
+
+2026-01-05 John Ralls 
+
+	* Merge the latest translations from Weblate.
+
+2026-01-04 Yurt Page 
+
+	* Translation update  by Yurt Page <yurtpage+weblate@gmail.com> using Weblate
+
+2026-01-04 Philippe Lamare 
+
+	* Translation update  by Philippe Lamare <ph.lamare@free.fr> using Weblate
+
+2026-01-04 Arda Yılmaz 
+
+	* Translation update  by Arda Yılmaz <fijarom@fijarom.com> using Weblate
+
+2026-01-04 Alois Levermann 
+
+	* Translation update  by Alois Levermann <alois@levermann.xyz> using Weblate
+
+2026-01-04 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2026-01-04 Simon Arlott 
+
+	* Translation update  by Simon Arlott <nomis@users.noreply.hosted.weblate.org> using Weblate
+
+2026-01-04 DGDS 
+
+	* Translation update  by DGDS <dagrinddontstop@users.noreply.hosted.weblate.org> using Weblate
+
+2026-01-04 aleksej0R 
+
+	* Translation update  by aleksej0R <omolice@hotmail.fr> using Weblate
+
+2026-01-04 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2026-01-04 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2026-01-04 Anastasios Ikonomou 
+
+	* Translation update  by Anastasios Ikonomou <anastasios.ikonomou@gmail.com> using Weblate
+
+2026-01-04 Frédéric Mergey 
+
+	* Translation update  by Frédéric Mergey <fmergey@yahoo.com> using Weblate
+
+2026-01-04 Laurent Aufrere 
+
+	* Translation update  by Laurent Aufrere <lecture@cbol.org> using Weblate
+
+2026-01-04 Anastasios Ikonomou 
+
+	* Translation update  by Anastasios Ikonomou <anastasios.ikonomou@gmail.com> using Weblate
+
+2026-01-05 Christopher Lam 
+
+	* [account.cpp] gnc_account_child_index non-child acct should return -1
+
+2026-01-03 Christopher Lam 
+
+	* [gnc-locale-utils.cpp] don't need to strdup locale
+
+2026-01-01 John Ralls 
+
+	* Turn of deprecation warning for wstring_convert.
+
+2026-01-01 John Ralls 
+
+	* Fix uninitialized variable warning.
+
+2026-01-01 John Ralls 
+
+	* Fix computation of relative guile paths when guile uses Windows paths.
+

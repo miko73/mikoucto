@@ -1,0 +1,16 @@
+controllers:
+    resource: ../src/Modules/Core/Api/
+    type: attribute
+
+api_docs_json:
+    path: /api/docs.json
+    controller: api_platform.action.documentation
+    methods: [GET]
+    defaults:
+        _format: jsonopenapi
+        _api_respond: true
+
+api_platform:
+    resource: .
+    type: api_platform
+    prefix: /api

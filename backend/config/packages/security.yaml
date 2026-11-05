@@ -1,0 +1,12 @@
+security:
+    firewalls:
+        api:
+            pattern: ^/api/
+            stateless: true
+            custom_authenticators:
+                - App\Modules\Core\Infrastructure\Identity\BearerAuthenticator
+            entry_point: App\Modules\Core\Infrastructure\Identity\BearerAuthenticator
+            access_denied_handler: App\Modules\Core\Infrastructure\Identity\ApiAccessDeniedHandler
+    access_control:
+        - { path: '^/api/v1/health(?:/database)?$', roles: PUBLIC_ACCESS }
+        - { path: '^/api/', roles: ROLE_USER }

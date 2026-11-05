@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+use App\Modules\Core\Infrastructure\Identity\IdentityProvisioner;
+use App\Modules\Core\Infrastructure\Identity\IdentityProvisioningException;
+use App\Modules\Core\Infrastructure\Migrations\MigrationFactory;
+use App\Modules\Core\Infrastructure\Migrations\MigrationGuardException;
+
+require dirname(__DIR__).'/vendor/autoload.php';
+
+try {
+    $input = json_decode(getenv('MIKOUCTO_PROVISION_INPUT') ?: '', true, 32, JSON_THROW_ON_ERROR);
+    $connection = ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL') ?: '');
+    MigrationFactory::assertTarget($connection, getenv('MIKOUCTO_MIGRATION_DATABASE') ?: '');
+    (new Symfony\Component\Dotenv\Dotenv())->bootEnv(dirname(__DIR__).'/.env');
+    $configuredTenant = $_SERVER['ENTRA_TENANT_ID'] ?? $_ENV['ENTRA_TENANT_ID'] ?? '';
+    if ($configuredTenant !== '' && strtolower($configuredTenant) !== strtolower($input['tenant'] ?? '')) {
+        throw new IdentityProvisioningException('Tenant does not match the configured identity provider.');
+    }
+    echo json_encode(IdentityProvisioner::provision($connection, $input), JSON_THROW_ON_ERROR | JSON_PRETTY_PRINT), PHP_EOL;
+} catch (Throwable $exception) {
+    $message = $exception instanceof IdentityProvisioningException || $exception instanceof MigrationGuardException
+        ? $exception->getMessage() : 'Check the target database, identity migration and input parameters.';
+    fwrite(STDERR, 'Provisioning failed. '.$message.PHP_EOL);
+    exit(1);
+}

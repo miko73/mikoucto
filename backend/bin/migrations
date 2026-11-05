@@ -1,0 +1,35 @@
+#!/usr/bin/env php
+<?php
+
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+use App\Modules\Core\Infrastructure\Migrations\MigrationFactory;
+use App\Modules\Core\Infrastructure\Migrations\MigrationGuardException;
+use Doctrine\Migrations\Tools\Console\Command;
+use Symfony\Component\Console\Application;
+
+require dirname(__DIR__).'/vendor/autoload.php';
+
+try {
+    $connection = ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL') ?: '');
+    MigrationFactory::assertTarget($connection, getenv('MIKOUCTO_MIGRATION_DATABASE') ?: '');
+    $factory = MigrationFactory::create($connection);
+    if (($argv[1] ?? '') === 'migrations:migrate') {
+        MigrationFactory::prepareStorage($connection, $factory);
+    }
+    $application = new Application('mikoucto migrations');
+    $application->addCommands([
+        new Command\StatusCommand($factory),
+        new Command\MigrateCommand($factory),
+        new Command\UpToDateCommand($factory),
+        new Command\ListCommand($factory),
+    ]);
+    $application->setCatchExceptions(false);
+    $application->run();
+} catch (Throwable $exception) {
+    // Nezobrazovat vnitrni chyby pripojeni: mohou obsahovat udaje DSN.
+    $detail = $exception instanceof MigrationGuardException
+        ? $exception->getMessage()
+        : 'Overte tunel, cilovou DB a stav schematu.';
+    fwrite(STDERR, 'Migrace selhala ('.get_class($exception).'). '.$detail.PHP_EOL);
+    exit(1);
+}

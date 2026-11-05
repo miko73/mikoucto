@@ -1,0 +1,21 @@
+# Tajemství a lokální konfigurace databáze
+db/azure/config.ps1
+db/azure/.secrets/
+db/google/.secrets/
+db/backups/
+.env.local
+
+# Přenosné nástroje (psql apod.)
+tools/pgsql/
+tools/_download/
+tools/php/
+tools/composer/
+backend/vendor/
+backend/var/
+backend/.phpunit.cache/
+tools/entra-client/node_modules/
+tools/entra/.local/
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/

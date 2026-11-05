@@ -1,0 +1,18 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    serializer: { enabled: true }
+    validation: { enabled: true }
+    http_method_override: false
+    handle_all_throwables: true
+    php_errors:
+        log: true
+
+when@test:
+    framework:
+        test: true
+        # Concurrent HTTP workers keep property-info values in their own
+        # process. Other compiled metadata retains the normal system cache.
+        cache:
+            pools:
+                cache.property_info:
+                    adapter: cache.adapter.array

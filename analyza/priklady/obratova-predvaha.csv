@@ -1,0 +1,25 @@
+﻿Sestava;"Obratová předvaha"
+Jednotka;UCTO_UKAZKA
+"Název jednotky";"Ukázková jednotka"
+"ID jednotky";00000000-0000-4000-8000-000000000001
+Období;"Ukázkové období – listopad 2026"
+"ID období";00000000-0000-4000-8000-000000000002
+Od;2026-11-01
+Do;2026-11-30
+"Sestaveno UTC";2026-11-04T12:00:00.000000Z
+Měna;CZK
+"Základ výpočtu";"Výpočet z evidovaných zaúčtovaných pohybů vybraného období. Převod počátečních stavů z jiných období není zahrnut."
+"Zahrnuty účty bez pohybů";NE
+
+"Kód účtu";"Název účtu";"Počáteční MD";"Počáteční DAL";"Obrat MD";"Obrat DAL";"Konečné MD";"Konečné DAL"
+211;Pokladna;0,00;0,00;150,00;0,00;150,00;0,00
+221;"Bankovní účet";0,00;0,00;0,00;150,00;0,00;150,00
+
+Souhrn
+"Kód účtu";"Název účtu";"Počáteční MD";"Počáteční DAL";"Obrat MD";"Obrat DAL";"Konečné MD";"Konečné DAL"
+CELKEM;;0,00;0,00;150,00;150,00;150,00;150,00
+"Rozdíl počátečních zůstatků MD − DAL";0,00
+"Rozdíl obratů MD − DAL";0,00
+"Rozdíl konečných zůstatků MD − DAL";0,00
+"Vyrovnaná předvaha";ANO
+"Počet datových řádků";2

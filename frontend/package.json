@@ -1,0 +1,22 @@
+{
+  "name": "mikoucto-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": ">=22.12" },
+  "scripts": {
+    "dev": "vite --host localhost --port 8005 --strictPort",
+    "generate": "openapi-typescript ../shared/openapi/partners.json -o src/generated/api.d.ts && openapi-typescript ../shared/openapi/accounting.json -o src/generated/accounting.d.ts",
+    "typecheck": "vue-tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": { "@azure/msal-browser": "5.27.0", "vue": "3.5.44" },
+  "overrides": { "openapi-typescript": { "undici": "6.29.1" } },
+  "devDependencies": {
+    "@playwright/test": "1.64.1", "@types/node": "^24.0.0",
+    "@vitejs/plugin-vue": "6.0.10", "openapi-typescript": "6.7.6",
+    "typescript": "5.9.3", "vite": "7.3.7", "vitest": "4.1.12", "vue-tsc": "3.3.14"
+  }
+}

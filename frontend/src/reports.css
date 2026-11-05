@@ -1,0 +1,12 @@
+.reports .report-filters{display:flex;flex-wrap:wrap;align-items:end;gap:14px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:20px;min-inline-size:0;margin:0 0 18px}
+.reports .report-filters>label{display:flex;flex:1 1 150px;min-width:0;flex-direction:column;gap:6px;font-size:12px;color:var(--ink)}
+.reports .report-filters select,.reports .report-filters input[type=date]{width:100%;min-width:0;padding:10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+.reports .report-filters .checkbox{flex-direction:row;align-items:center;flex-basis:210px;padding:10px 0}
+.reports .report-basis{padding:14px 18px;border-left:3px solid #88b3a4;background:#eef4f1;font-size:12px;color:#4e6863;line-height:1.7}
+.reports .report-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0 12px}
+.reports .report-summary>div{background:white;border:1px solid var(--line);border-radius:8px;padding:18px;min-width:0}
+.reports .report-summary small{font-size:11px;min-height:34px}.reports .report-summary strong{display:block;font-size:21px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;color:var(--ink);margin-top:10px}
+.reports .report-summary-table{margin:24px 0 14px}.reports .report-summary-table table{min-width:600px}.reports .report-summary-table th{letter-spacing:0;font-size:11px}
+.reports .report-table{min-width:920px}.reports .numeric{text-align:right}.reports .report-table th{letter-spacing:.4px;font-size:10px}.reports .report-table td{padding:16px 18px}.reports .report-table th:first-child,.reports .report-table td:first-child{min-width:180px}.reports .alert{overflow-wrap:anywhere}
+@media(max-width:1100px){.reports .report-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.reports .heading{flex-direction:column;align-items:stretch}.reports .report-filters{padding:14px;gap:12px}.reports .report-filters>label{flex-basis:135px}.reports .report-filters input,.reports .report-filters select{font-size:16px}.reports .report-summary{grid-template-columns:1fr}.reports .report-summary>div{padding:12px}.reports .report-summary strong{font-size:16px}.reports .report-summary small{font-size:10px;min-height:0}.reports .pagination{flex-wrap:wrap;gap:12px}}

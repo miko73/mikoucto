@@ -1,0 +1,10 @@
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/dbi
+
+Name: libdbi
+Description: database-independent abstraction layer in C
+Version: 0.9.1
+Libs: -L${libdir} -ldbi
+Cflags: -I${includedir} -I${includedir}/dbi

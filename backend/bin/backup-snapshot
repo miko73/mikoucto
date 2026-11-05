@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+use App\Modules\Core\Infrastructure\Backup\BackupGuard;
+use App\Modules\Core\Infrastructure\Backup\BackupManifest;
+use App\Modules\Core\Infrastructure\ConnectionFactory;
+require dirname(__DIR__).'/vendor/autoload.php';
+$connection=null;
+try {
+    $directory=BackupGuard::directory(getenv('MIKOUCTO_BACKUP_DIR')?:'');$id=basename($directory);
+    $connection=ConnectionFactory::create(getenv('DATABASE_MIGRATIONS_URL')?:'');
+    $connection->executeStatement('BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY');
+    $identity=$connection->fetchAssociative('SELECT current_database() AS database,current_user AS role,current_setting(\'server_version_num\') AS version,pg_backend_pid() AS pid');
+    if ($identity['database']!=='playground'||$identity['role']!=='mikoucto_owner'||(int)$identity['version']/10000<16||(int)$identity['version']>=170000) { throw new RuntimeException('Source must be playground / owner on PostgreSQL 16.'); }
+    $application='mikoucto.backup.'.substr($id,-12);$connection->fetchOne("SELECT set_config('application_name',?,false)",[$application]);
+    $snapshot=$connection->fetchOne('SELECT pg_export_snapshot()');
+    $manifest=BackupManifest::capture($connection);
+    BackupGuard::write($directory.'/source.json',['backupId'=>$id,'createdAt'=>gmdate('c'),'sourceIdentity'=>$identity,'applicationName'=>$application,'snapshot'=>$snapshot,'manifest'=>$manifest,'migrationFiles'=>BackupGuard::migrationFiles()]);
+    BackupGuard::write($directory.'/source-ready.json',['ready'=>true]);
+    $deadline=microtime(true)+300;
+    while (!is_file($directory.'/release-source')) { if (microtime(true)>$deadline) { throw new RuntimeException('Snapshot lease expired.'); } usleep(50000);clearstatcache(); }
+    $connection->executeStatement('ROLLBACK');$connection->close();
+} catch(Throwable $error) {
+    if ($connection) { $connection->close(); }
+    if (isset($directory)) { BackupGuard::write($directory.'/source-error.json',['class'=>get_class($error),'message'=>preg_replace('~postgres(?:ql)?://[^\s]+~','[redacted]',$error->getMessage())]); }
+    fwrite(STDERR,'Source snapshot failed ('.get_class($error).').'.PHP_EOL);exit(1);
+}
